@@ -1,0 +1,304 @@
+/**OTHER**/
+
+body{
+	margin: 0;
+	
+}
+
+.icon{
+	width: 24px;
+	height: 24px;
+	border: 0;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+
+/**PAGE**/
+
+#header{
+	background-color: #4B0082;
+	border-bottom: 2px solid #000;
+}
+
+#header .logo{
+	text-align: center;
+}
+
+#header .logo img{
+	
+}
+
+#toolbar{
+	background: linear-gradient(#696969, #000);
+	text-align: center;
+}
+
+#toolbar ul{
+	margin: 0;
+	padding: 8px 0px;
+	list-style: none;
+}
+
+#toolbar ul li{
+	display: inline;
+}
+
+#toolbar ul li a{
+	display: inline;
+	text-decoration: none;
+	font-family: Comic Sans MS;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 10px;
+	color: #fff
+}
+
+#toolbar ul li a:hover{
+	text-decoration: underline;
+}
+
+#container{
+	overflow: auto;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#container  #navigasi{
+	float: left;
+	margin-right: 15px;
+}
+
+#container #navigasi ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#container #navigasi ul .title{
+	background: linear-gradient(#9400D3, #800080);
+	color: #fff;
+	border: 1px solid #9400D3;
+	font-family: Comic Sans MS;
+}
+
+#container #navigasi ul .title:hover{
+	background: linear-gradient(#800080, #9400D3);
+}
+
+#container #navigasi ul  .empty{
+	background: linear-gradient(#fff, #fff);
+	border: none;
+}
+
+#container #navigasi ul  .empty:hover,
+#container #navigasi ul  .empty:active{
+	background: linear-gradient(#fff, #fff);
+	border: none;
+}	
+
+#container #navigasi  ul li{
+	 text-align: left;
+	 padding: 10px 20px 10px 20px;
+	 background: linear-gradient(#eee,silver);
+	 margin-bottom: 1px;
+	 -webkit-transition:background 500ms ease-in-out;
+     -moz-transition:background 500ms ease-in-out;
+	 -ms-transition:background 500ms ease-in-out;
+	 -o-transition:background 500ms ease-in-out;
+	 color: #000;
+	 border: 1px solid silver;
+}
+
+#container #navigasi  a{
+	 text-decoration: none;
+	 color: #800080;
+}
+
+#container #navigasi li:hover{
+	background: linear-gradient(silver,#eee);
+}
+
+#container #navigasi li:active{
+	color: red;
+}
+
+#content{
+	overflow: auto;
+}
+
+#content .pencarian{
+	margin: 20px 0px 20px 20px;
+	font-size: 18px;
+}
+
+#content .pencarian #txtcari{
+	height: 30px;
+	font-size: 18px;
+}
+
+#content .pencarian  #awal,
+#content .pencarian #akhir{
+	height: 30px;
+	font-size: 18px;
+}
+
+#content .pencarian input[type='submit']{
+	margin-bottom: 13px;
+	padding: 5px 10px 5px 10px;
+	border-radius: 6px;
+}
+
+#content .table_data{
+	margin: 20px 0px 20px 20px;
+}
+
+#content .table_data table thead,
+.table_detail thead,
+.table_detail tfoot{
+	background: linear-gradient(#9400D3, #800080);
+	color: #fff;
+	font-family: Comic Sans MS;
+	font-weight: none;
+	font-size: 14px;
+	cursor: pointer;
+	text-align: left;
+}
+
+#content .table_data table thead .tr_title{
+	background: linear-gradient(#696969, #000);
+	color: #fff;
+}
+
+#content .table_data tbody,
+.table_detail tbody{	
+	background: linear-gradient(silver,#eee);
+	color: #000;
+	font-size: 14px;
+}
+
+#content .table_data select{
+	color: #4B0082;
+	font-family: Comic Sans MS;
+}
+
+
+#content .table_data a{
+	text-decoration: none;
+	font-size: 14px;
+}
+
+#content .table_data a:hover{
+	color: red;
+}
+
+#content #paging{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+#content #paging a{
+	text-decoration: none;
+	background: linear-gradient(silver,#eee);
+	padding: 10px 15px 10px 15px;
+	color: #000;
+	border-radius: 6px;
+	font-weight: bold;
+	border: 1px solid silver;
+}
+
+#content #paging a:hover{
+	color: red;
+}
+
+#content #button_list{
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+#form_submit input,
+#form_submit select{
+	height: 35px;
+}
+
+#form_submit input[type='text'],
+#form_submit textarea{
+	width: 200%;
+}
+
+#form_submit textarea{
+	height: 100%;
+}
+
+.table_profil{
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 10px 0px 0px 15px;
+}
+
+.table_profil input[type='text'],
+.table_profil input[type='email'],
+.table_profil input[type='tel']{
+	height: 35px;
+	width: 250%;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Comic Sans MS;
+}
+
+.table_profil #tgl_berdiri{
+	width: 52%;
+}
+
+.table_profil input[type='submit'],
+.table_profil input[type='reset']{
+	font-size: 18px;
+	margin-top: 25px;
+}
+
+.table_profil #tgl_berdiri{
+	height: 35px;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Comic Sans MS;
+}
+
+.table_profil textarea{
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Comic Sans MS;
+}
+
+.table_profil #waktu_buka,
+.table_profil #waktu_tutup{
+	border: none;
+}
+
+.table_profil textarea{
+	width: 250%;
+}
+
+#form_report_sales table,
+#form_report table,
+#form_submit  table{
+	color: #fff;
+}
+
+#chart{
+	padding-left: 1px;
+}
+
+
+
+/**Sales**/
+
+
+
+
+
+
+
+
+

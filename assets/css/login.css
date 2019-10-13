@@ -1,0 +1,139 @@
+body{
+	font-family: Arial;
+	background-color: #4B0082;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+img{
+	border: 0;
+	vertical-align: middle;
+}
+
+#header{
+	background: linear-gradient(#800080,#8B008B);
+	height: 48px;
+	border-bottom: 2px solid #9400D3;
+}
+
+#header_failed{
+	background: linear-gradient(red,#800000);
+	border: 1px solid #fff;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#header .inside,
+#header_failed .inside{
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	font-family: Comic Sans MS;
+}
+
+#header  img{
+	width: 48px;
+	height: 48px;
+}
+
+#flogin{
+	width: 420px;
+	margin: 0 auto;
+	background-color: #fafafa;
+	margin-top: 15%;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 3);
+	overflow: auto;
+}
+
+#flogin img{
+	padding-top: 7%;
+	float: left;
+}
+#flogin .inside span{
+	display: block;
+	padding-bottom: 5px;
+	color: #9400D3;
+}
+
+#flogin .inside{
+	padding-top: 4%;
+	float: left;
+}
+
+#flogin .title{
+	font-size: 24px;
+	text-align: center;
+}
+
+#flogin .inside input[type='text'],
+#flogin .inside input[type='password']{
+	width: 120%;
+	height: 35px;
+	font-size: 14px;
+	border-radius: 4px;
+	border: 1px solid #9400D3;
+	color:  #9400D3;
+	padding-left: 5px;
+}	
+
+
+
+#flogin .inside input[type='submit'],
+#flogin .inside input[type='reset']{
+	background: linear-gradient(#800080,#8B008B);
+	height: 35px;
+	font-size: 18px;
+	border-radius: 4px;
+	border: 1px solid #9400D3;
+	color:  #fff;
+	width: 100px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	cursor: pointer;
+}	
+
+#flogin .inside input[type='submit']:hover,
+#flogin .inside input[type='reset']:hover{
+	background: linear-gradient(#8B008B,#800080);
+}	
+
+
+#flogin .inside input[type='submit']:active,
+#flogin .inside input[type='reset']:active{
+	background: linear-gradient(#800080,#8B008B);
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
